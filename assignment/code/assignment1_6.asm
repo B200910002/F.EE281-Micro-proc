@@ -1,0 +1,9 @@
+	LXI H, 1000H
+	MVI A, 00H
+	MOV C, M
+UP:
+	ADD M
+	DCR C
+	JNZ UP
+	STA 1002H
+	HLT

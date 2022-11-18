@@ -1,0 +1,4 @@
+	MVI a,8
+	STA 2000h
+	LDA 2000h
+	STA 2008h

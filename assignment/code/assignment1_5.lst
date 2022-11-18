@@ -1,0 +1,9 @@
+0001   0000 3E 00       	MVI A,00h
+0002   0002 06 09       	MVI B,09h
+0003   0004             NEXT: 
+0004   0004 80          	ADD B
+0005   0005 05          	DCR B
+0006   0006 C2 04 00    	JNZ NEXT
+0007   0009 32 1F 20    	STA 201FH
+0008   000C 76          	HLT
+Number of errors = 0
